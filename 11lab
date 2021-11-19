@@ -1,0 +1,29 @@
+#1задание
+#Laboratornaya rabota № 11
+#Vypolnil kursant 14 vzvoda RTF
+#Biryukov D.V.
+
+name, info = input(), input()
+print(name, info, sep='\n')
+
+#2задание
+print('I like Python')
+
+#3задание
+a = input()
+b = input()
+c = input()
+d = input()
+print(b, c, d, sep=a)
+
+#4задание
+name = input()
+print('Привет, ', name, '!', sep='')
+
+#1задание лаба2
+
+n = int(input())
+print('1 число - ', n//1000)
+print('2 число - ', (n//100)%10)
+print('3 число - ', (n//10)%10)
+print('4 число - ', n%10)
