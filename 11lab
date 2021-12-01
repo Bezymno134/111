@@ -70,4 +70,15 @@ if abs(x1-x2) <= 1 and abs(y1-y2) <= 1:
     print("YES")
 else:
     print("NO") 
+    
+    
+    5zad
+    
+    a,b,c = map(int, input().split)
+if a == b == c:
+    print("Равносторонний")
+elif a == b or b == c or a == c:
+    print ("Равнобедренный")
+else:
+    print("Разносторонний")
 
