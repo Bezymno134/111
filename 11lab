@@ -27,3 +27,35 @@ print('1 число - ', n//1000)
 print('2 число - ', (n//100)%10)
 print('3 число - ', (n//10)%10)
 print('4 число - ', n%10)
+
+
+1zad
+x = 3
+a = 0
+for i in range(2,50):
+    a += (i+4)*3**(i-2)
+print(a)    
+
+
+
+2zad
+
+n = 7
+for i in range(n):
+    if 2**(i) > n:
+        a = 2**(i)
+        break
+print(a)  
+
+3zad
+
+x, y = 0, 0
+while True:
+    a = int(input())
+    if a == 0:
+        break
+    elif a < 0:
+        x += a
+    elif a > 0:
+        y += a
+print(f'Сумма отрицательных числе = {y}', f'Сумма положительных числе = {x}', sep='\n')    
